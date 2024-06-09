@@ -1,7 +1,7 @@
 //WAP to read one char value form user and display its individual cahracter
 
 import java.util.Scanner;
-class Test {
+class Q3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter an String value...");
