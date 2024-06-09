@@ -1,6 +1,6 @@
 //WAP to read two numbers and swap them without using third variable.
 import java.util.Scanner;
-class Test {
+class Q6 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter an two number...");
