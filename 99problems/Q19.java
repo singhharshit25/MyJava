@@ -5,10 +5,8 @@ public class Q19 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter alphabet");
         char ch = sc.next().charAt(0);
-    if(ch>=97 && ch<=122){
-        System.out.println("Lowercase");
-    }else{
-        System.out.println("Uppercase");
+    if(ch>=65 && ch<=90){
+        System.out.println("uppercase");
     }
     }
 }
