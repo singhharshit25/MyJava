@@ -1,0 +1,53 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class Main {
+    public static void main(String[] args) {
+    //     String str = "programmer@gmail.com";
+    //     //System.out.println(str.endsWith("gmail.com"));
+    //   //  int domain = str.lastIndexOf("."));
+    //     System.out.println("Username: "+str.substring(0,str.lastIndexOf("@")));
+    //     if(str.substring(str.indexOf("@")+1,str.lastIndexOf(".")).equalsIgnoreCase("gmail")){
+    //         System.out.println("true");
+    //     }
+    //     System.out.println("Domain: "+str.substring(str.lastIndexOf(".")+1));
+    
+    
+    //find number is binary or not?
+    // int b = 101011;
+    // int c = 0x14A1;
+    // String str = String.valueOf(b);
+    // System.out.println(str);
+    // String str1 = String.valueOf(c);
+    // System.out.println(str1);  
+    
+    // System.out.println(str.matches("[01]*"));
+    // System.out.println(str.matches("[0-9 A-F]*"));
+    
+    //find, is the data in Date Format(dd/mm/yyyy)
+    // String d ="01/12/2001";
+    // System.out.println(d.matches("[01][01]/[01][0-9]/[0-9]{4}"));
+    // String date = d.substring(0,d.indexOf("/"));
+    // String month = d.substring(d.indexOf("/")+1,d.lastIndexOf("/"));
+    // String year = d.substring(d.lastIndexOf("/")+1);
+    
+    // System.out.println("date: "+date+", month: "+month+", year: "+year);
+
+    // //remove special character from string
+    // String str ="a!B@c#1$2%3";//o/p->abc123
+    // System.out.println(str.replaceAll("\\W",""));
+    // System.out.println(str.replaceAll("[^a-z A-Z 0-9]",""));
+    
+    //remove extra spaces from the string
+    String str ="abc  de  f";//o/p->abc123
+    System.out.println(str.replaceAll("\\W",""));
+    System.out.println(str.replaceAll(" ",""));
+    System.out.println(str.replaceAll("\\s",""));
+   
+    //count how many words are there 
+    str = str.replaceAll("\\s+"," ").trim() ;
+    String words[]=str.split("\\s");
+    System.out.println(words.length);
+    
+    }
+}
